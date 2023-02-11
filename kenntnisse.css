@@ -1,0 +1,35 @@
+#kenntnisse_section{
+    padding: 70px 0;
+    background-color: var(--secondary-color);
+}
+#kenntnisse_section{
+    font-size: 50px;
+    text-align: center;
+}
+.kenntnisse_container{
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 700px;
+    max-width: 90% - 40px;
+    background-color: var(--primary-color);
+    border-radius: 100px;
+    padding: 60px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.card1 *{
+    text-align: center;
+}
+@media(max-width: 750px){
+    #grundausbildung_section h2{
+       font-size: 9vw;
+    } 
+}

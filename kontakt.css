@@ -1,0 +1,29 @@
+#kontakt{
+    padding: 70px 0;
+    background-color: var(--secondary-color);
+}
+.kontakt_txt{
+    margin-left: 30px;
+}
+.kontakt_txt a{
+    color: var(--text-color);
+}
+.footer-button{
+    background-color: var(--primary-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: large;
+    float: right;
+}
+.footer-button a{
+    color: var(--text-color);
+}
+
+footer .footer-button:hover {
+    background-color: var(--secondary-color);
+}
